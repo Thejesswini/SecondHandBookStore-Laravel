@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    padding: 10px;
+}
+
+.edit_form {
+    margin-top: 3%;
+    width: 100%;
+    padding-bottom: 2%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.edit_form .sellinputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit_form .sellinputs .title {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 1%;
+    align-items: center;
+    margin-left: 8%;
+}
+
+.edit_form .sellinputs .author {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1%;
+    align-items: center;
+    gap: 20px;
+}
+
+.edit_form .sellinputs .price {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1%;
+    align-items: center;
+    gap: 20px;
+}
+
+.edit_form .sellinputs > div {
+    width: 33.33%;
+}
+
+.edit_form .save_button {
+    margin-top: 2%;
+    justify-self:center;
+}
+.edit_form .save_button button {
+    height: 45px;
+    padding: 15px 30px; /* Adjust the inner spacing */
+    font-size: 18px; /* Increase the text size */
+    border: none; /* Optional: Remove border for a cleaner look */
+    cursor: pointer; /* Adds a pointer cursor for better UX */
+    color: white;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+.edit_form input {
+    padding: 10px;
+}
+
+.edit_form h2 {
+    text-align: center;
+    padding: 1%;
+}

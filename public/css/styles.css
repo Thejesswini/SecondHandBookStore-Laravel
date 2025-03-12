@@ -1,0 +1,304 @@
+h2 {
+    color: black;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    padding: 10px;
+}
+
+
+
+.full_login {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.full_login .heading h1{
+    margin-bottom: 80px;
+    color: rgb(53, 5, 68);
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    justify-self: center;
+    border-radius: 10px;
+    margin-left: 40px;
+    padding: 20px;
+}
+
+.full_login .container {
+    max-width: 900px;
+    width: 100%;
+    display: flex;
+}
+
+.full_login .container > div {
+    width: 50%;
+    flex-wrap: wrap;
+}
+
+.full_login .container .login {
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 5%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.full_login .container .login input {
+    padding: 3%;
+    margin-left: 40px;
+}
+
+.full_login .container .register {
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.full_login .container .register input {
+    padding: 3%;
+    margin-left: 40px;
+}
+
+.full_login .container .login .loginname {
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
+    margin:  0 50px 0px 80px;
+    align-items: center;
+}
+
+.full_login .container .login .loginpwd {
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
+    margin:  0 50px 0px 80px;
+    align-items: center;
+}
+
+.full_login .container .login .loginbutton button{
+    margin: 45px 0;
+    height: 45px;
+    padding: 15px 30px; /* Adjust the inner spacing */
+    font-size: 18px; /* Increase the text size */
+    border: none; /* Optional: Remove border for a cleaner look */
+    border-radius: 5px; /* Optional: Round the corners */
+    cursor: pointer; /* Adds a pointer cursor for better UX */
+    color: white;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    border-radius: 0;
+}
+
+.full_login .container .register .name {
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
+    margin:  0 50px 0px 80px;
+    align-items: center;
+}
+
+.full_login .container .register .email {
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
+    margin:  0 50px 0px 80px;
+    align-items: center;
+}
+
+.full_login .container .register .pwd {
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
+    margin:  0 50px 0px 80px;
+    align-items: center;
+}
+
+.full_login .container .register .button button{
+    height: 45px;
+    padding: 15px 30px; /* Adjust the inner spacing */
+    font-size: 18px; /* Increase the text size */
+    border: none; /* Optional: Remove border for a cleaner look */
+    border-radius: 5px; /* Optional: Round the corners */
+    cursor: pointer; /* Adds a pointer cursor for better UX */
+    color: white;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    border-radius: 0;
+}
+
+.authorized {
+    width: 100%;
+    display:block;
+    align-items: center;
+}
+
+.authorized h3 {
+    text-align: left;
+    font-size: smaller;
+}
+
+.authorized .auth_heading {
+    justify-self: end;
+    margin-right: 1%;
+}
+.authorized .sellbook {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.authorized .sellbook .sellinputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.authorized .sellbook .sellinputs .title {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 1%;
+    align-items: center;
+    margin-left: 6%;
+}
+
+.authorized .sellbook .sellinputs .author {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1%;
+    align-items: center;
+    gap: 20px;
+}
+
+.authorized .sellbook .sellinputs .price {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1%;
+    align-items: center;
+    gap: 20px;
+}
+
+.authorized .sellbook .sellinputs > div {
+    width: 33.33%;
+}
+.authorized .sellbook input {
+    padding: 10px;
+}
+
+.authorized .sellbook h2 {
+    text-align: center;
+    padding: 1%;
+}
+
+.authorized .sellbook .upload_button {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.authorized .sellbook .upload_button button {
+    height: 45px;
+    padding: 15px 30px; /* Adjust the inner spacing */
+    font-size: 18px; /* Increase the text size */
+    border: none; /* Optional: Remove border for a cleaner look */
+    cursor: pointer; /* Adds a pointer cursor for better UX */
+    color: white;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+.book_choice{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.book_choice .allbooks button {
+    height: 45px;
+    padding: 15px 30px; /* Adjust the inner spacing */
+    font-size: 18px; /* Increase the text size */
+    border: none; /* Optional: Remove border for a cleaner look */
+    border-radius: 5px; /* Optional: Round the corners */
+    cursor: pointer; /* Adds a pointer cursor for better UX */
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+    text-align: center;
+}
+
+.book_choice .mybooks button {
+    height: 45px;
+    padding: 15px 30px; /* Adjust the inner spacing */
+    font-size: 18px; /* Increase the text size */
+    border: none; /* Optional: Remove border for a cleaner look */
+    border-radius: 5px; /* Optional: Round the corners */
+    cursor: pointer; /* Adds a pointer cursor for better UX */
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+    text-align: center;
+}
+
+.list_items {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    padding-bottom: 2%;
+}
+
+.list_items h2 {
+    text-align: center;
+    font-size: 30px;
+    padding: 1%;
+}
+
+.list_items .ind_item {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+}
+
+.list_items .ind_item .editing p{
+    font-size: 20px;
+}
+
+.list_items .ind_item .editing button{
+    text-align: center;
+    padding: 10px;
+    font-size: 18px; /* Increase the text size */
+    border: none; /* Optional: Remove border for a cleaner look */
+    cursor: pointer; /* Adds a pointer cursor for better UX */
+    color: white;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+.logout {
+    margin-top: -10px;
+}
+
+.logout .logout_b{
+    display: flex;
+    justify-content: right;
+}
+
+.logout .logout_b button {
+    height: 45px;
+    padding: 15px 30px; /* Adjust the inner spacing */
+    font-size: 18px; /* Increase the text size */
+    border: none; /* Optional: Remove border for a cleaner look */
+    border-radius: 5px; /* Optional: Round the corners */
+    cursor: pointer; /* Adds a pointer cursor for better UX */
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+    text-align: center;
+}
